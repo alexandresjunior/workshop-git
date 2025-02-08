@@ -7,5 +7,9 @@ public class Commit {
         float peso = pesos.nextFloat();
         System.out.println("diga a sua altura:");
         float altura = pesos.nextFloat();
+
+        float imc = peso/(altura*altura);
+
+        System.out.println();
     }
 }
