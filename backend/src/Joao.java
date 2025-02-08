@@ -10,6 +10,7 @@ public class Joao {
         System.out.println("Qual sua altura: ");
         float altura = sc.nextFloat();
         //PROCESSAMENTO(CALCULO)
-        
+        float imc = peso / ( altura * altura );
+        System.out.println("Seu imc é: "+ imc);
     }
 }
