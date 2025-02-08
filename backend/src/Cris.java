@@ -7,6 +7,9 @@ public class Cris {
         Double peso = sc.nextDouble();
         System.out.println("Digite altura: ");
         Double altura = sc.nextDouble();
+
+        Double imc = (peso)/Math.pow(altura, 2);
         sc.close();
+        System.out.println("IMC : "+ String.format("%.2f", imc));
     }
 }
