@@ -12,6 +12,10 @@ public class Lucas {
         System.out.println("Insira a altura do paciente: ");
         double alturaPaciente = sc.nextDouble();
 
+        double imcPaciente = pesoPaciente / (alturaPaciente * 2);
+
+        System.out.println("O IMC do paciente é de: " + imcPaciente);
+
         
         sc.close();
     }
