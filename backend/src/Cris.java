@@ -1,5 +1,14 @@
+import java.util.Scanner;
+
 public class Cris {public static void main(String[] args) {
-    System.out.println("Olá, Mundo!");
+    
+    Scanner entrada = new Scanner (System.in);
+
+    System.out.println("Digite o seu peso: ");
+    double peso = entrada.nextDouble();
+
+    System.out.println("Digite a sua altura: ");
+    double altura = entrada.nextDouble();
 }
     
 }
