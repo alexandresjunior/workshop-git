@@ -9,6 +9,9 @@ public class Cris {public static void main(String[] args) {
 
     System.out.println("Digite a sua altura: ");
     double altura = entrada.nextDouble();
+
+    double imc = peso / (altura * altura);
+    System.out.println("O seu IMC é: " + imc);
 }
     
 }
