@@ -10,6 +10,6 @@ public class Commit {
 
         float imc = peso/(altura*altura);
 
-        System.out.println();
+        System.out.println("IMC: " + imc);
     }
 }
